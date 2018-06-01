@@ -1,0 +1,7 @@
+#1:Try it out by installing the requirements. (Works only with python >= 3.4, due to django 2)
+pip install -r requirements.txt
+#2:Migrate:
+python manage.py migrate
+#3:And then start the server
+python manage.py runserver
+#4:Now you can browse the API or start on the landing page  (default: http://localhost:8000)
